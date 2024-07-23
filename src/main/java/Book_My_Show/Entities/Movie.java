@@ -1,5 +1,6 @@
 package Book_My_Show.Entities;
 
+
 import Book_My_Show.Enums.Genre;
 import Book_My_Show.Enums.Language;
 import jakarta.persistence.*;
@@ -32,7 +33,9 @@ public class Movie {
     @Enumerated(value = EnumType.STRING)
     private Language language;
 
-    private String movieRating; // U, U/A, A, R
+    private double rating;  // 0, 1, 2..... 8, 8.1, ...... 9.1, 9.2, .....
+
+    private String movieRated;  // U, U/A, A, R
 
     private LocalDate releaseDate;
 }
