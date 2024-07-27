@@ -1,4 +1,4 @@
-package Book_My_Show.Entities;
+package Book_My_Show.Controllers.Entities;
 
 import jakarta.persistence.*;
 import lombok.*;

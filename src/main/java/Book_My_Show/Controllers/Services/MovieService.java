@@ -1,8 +1,8 @@
-package Book_My_Show.Services;
+package Book_My_Show.Controllers.Services;
 
-import Book_My_Show.Entities.Movie;
-import Book_My_Show.Repositories.MovieRepository;
-import Book_My_Show.RequestDTO.UpdateMovieAttributes;
+import Book_My_Show.Controllers.Entities.Movie;
+import Book_My_Show.Controllers.Repositories.MovieRepository;
+import Book_My_Show.Controllers.RequestDTO.UpdateMovieAttributes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

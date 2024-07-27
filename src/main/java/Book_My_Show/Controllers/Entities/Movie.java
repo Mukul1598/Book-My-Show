@@ -1,8 +1,8 @@
-package Book_My_Show.Entities;
+package Book_My_Show.Controllers.Entities;
 
 
-import Book_My_Show.Enums.Genre;
-import Book_My_Show.Enums.Language;
+import Book_My_Show.Controllers.Enums.Genre;
+import Book_My_Show.Controllers.Enums.Language;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
