@@ -130,8 +130,12 @@ public class TheaterService {
             classicSeatCounter++;
         }
 
-        theaterSeatRepository.saveAll(theaterSeatList);
+        theater.setTheaterSeatList(theaterSeatList);
 
+//      theaterSeatRepository.saveAll(theaterSeatList); // theaterSeats will get automatically saved
+                                                // Because of cascading property written in the parent table
+
+        theaterRepository.save(theater);
         return "Theater seats have been generated";
     }
 
