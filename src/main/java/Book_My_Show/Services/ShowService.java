@@ -34,7 +34,7 @@ public class ShowService {
         //Get the Movie Entity and Theater Entity to create the Show entity
 
 //        Movie movie = movieRepository.findMovieByMovieName(showRequest.getMovieName());
-        Movie movie = movieRepository.findMovie(showRequest.getMovieName());
+        Movie movie = movieRepository.findMovieByMovieName(showRequest.getMovieName());
 
         Theater theater = theaterRepository.findById(showRequest.getTheaterId()).get();
 
